@@ -17,17 +17,17 @@ compressed folders have been unzipped.
 Models may be tested with the following command, excuted from within the
 Compiled_CoreNLP directory:
 
-`java edu.stanford.nlp.parser.nndep.DependencyParser \
-  -testFile <path-to-testfile> \
+`java edu.stanford.nlp.parser.nndep.DependencyParser
+  -testFile <path-to-testfile>
   -model <path-to-model>`
 
 New models may be trained with the following command:
 
-`java edu.stanford.nlp.parser.nndep.DependencyParser \
-  -trainFile <path-to-trainfile> \
-  -devFile <path-to-devfile> \
-  -embedFile <path-to-embeddings> \
-  -embeddingSize <embedding-size> \
+`java edu.stanford.nlp.parser.nndep.DependencyParser
+  -trainFile <path-to-trainfile>
+  -devFile <path-to-devfile>
+  -embedFile <path-to-embeddings>
+  -embeddingSize <embedding-size>
   -model <model-name>.txt.gz`
   
 The repositiory contains the following subdirectories and files.
