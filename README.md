@@ -1,8 +1,11 @@
 # COSI_134_Final
 
 Author: Matthew Garber
+
 Class: COSI 134
+
 Semester: Fall 2016
+
 Final Project
 
 This file provides description of the several subdirectories and files. It
@@ -65,5 +68,3 @@ to use them from the command line.
   
 Contains the treebanks used to train the various dependency parser models. Each
 treebank subdirectory contains a train, dev, and test set.
-
-COSI 134 Final Project
