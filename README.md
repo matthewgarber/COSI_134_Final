@@ -71,16 +71,16 @@ treebanks to their current forms. Please refer to the individual files on how
 to use them from the command line.
 
 == ud-treebanks-v1.4 ==
-  = EN-Baseline =
-  - Contains the converted English baseline treebanks.
-  = ES-Basline =
-  - Contains the converted Spanish baseline treebanks.
-  = Low =
-  - Contains the Spanish treebanks using the 'Low' tagset.
-  = Mid =
-  - Contains the Spanish treebanks using the 'Mid' tagset.
-  = Stanford =
-  - Contains the Spanish treebanks using the 'Stanford' tagset.
+  - EN-Baseline
+    - Contains the converted English baseline treebanks.
+  - ES-Basline
+    - Contains the converted Spanish baseline treebanks.
+  - Low
+    - Contains the Spanish treebanks using the 'Low' tagset.
+  - Mid
+    - Contains the Spanish treebanks using the 'Mid' tagset.
+  - Stanford
+    - Contains the Spanish treebanks using the 'Stanford' tagset.
   
 Contains the treebanks used to train the various dependency parser models. Each
 treebank subdirectory contains a train, dev, and test set.
